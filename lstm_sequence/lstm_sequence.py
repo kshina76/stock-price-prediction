@@ -12,7 +12,7 @@ from keras.optimizers import Adam, Adagrad, RMSprop, SGD
 from keras.layers.recurrent import LSTM
 from pyti.exponential_moving_average import exponential_moving_average as ema
 
-data_path = './daily_data/USD_JPY.D.csv'
+data_path = '../daily_data/USD_JPY.D.csv'
 ema_period = 21 #emaの期間
 interval = 20 # 分割数
 predict_period = 5 #何日後のレートを予測するか
